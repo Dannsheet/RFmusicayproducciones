@@ -1,0 +1,108 @@
+.testimonials-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #111111;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .testimonials-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.testimonials-gradient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(0, 212, 255, 0.03) 0%, transparent 50%);
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.testimonials-label {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.testimonials-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: 0.005em;
+  line-height: 0.92;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.testimonials-description {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  color: #A0A0A0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-quote-mark {
+  color: #00D4FF;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  opacity: 0.5;
+}
+
+.testimonial-quote {
+  font-family: var(--font-body);
+  font-size: 1.375rem;
+  color: #FFFFFF;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-author {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-role {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: #A0A0A0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}

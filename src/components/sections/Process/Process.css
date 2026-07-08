@@ -1,0 +1,127 @@
+.process-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #111111;
+  padding-top: 6.25rem;
+  padding-bottom: 11.25rem;
+}
+
+@media (min-width: 768px) {
+  .process-section {
+    padding-top: 8.75rem;
+    padding-bottom: 8.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .process-section {
+    padding-top: 11.25rem;
+    padding-bottom: 11.25rem;
+  }
+}
+
+.process-gradient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(0, 212, 255, 0.03) 0%, transparent 50%);
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.process-label {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.process-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: 0.005em;
+  line-height: 0.92;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.process-description {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  color: #A0A0A0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.process-step {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.process-step-number {
+  flex-shrink: 0;
+}
+
+.process-step-number-box {
+  width: 5rem;
+  height: 5rem;
+  background-color: #00D4FF;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.25);
+}
+
+.process-step-number-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #0A0A0A;
+  font-size: 1.5rem;
+}
+
+.process-step-content {
+  flex: 1;
+  padding-top: 0.5rem;
+}
+
+.process-step-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.process-step-description {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  color: #A0A0A0;
+  line-height: 1.7;
+}

@@ -1,0 +1,7 @@
+/* Import custom styles */
+
+@import "tailwindcss";
+@import './styles/variables.css';
+@import './styles/globals.css';
+@import './styles/typography.css';
+@import './styles/animations.css';

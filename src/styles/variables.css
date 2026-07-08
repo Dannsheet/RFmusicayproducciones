@@ -1,0 +1,209 @@
+:root {
+  /* Colors - Dark Premium Palette from UX Report */
+  --bg-primary: #070707;
+  --bg-surface: #111111;
+  --bg-card: #111111;
+  --color-border: #262626;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A1A1AA;
+  --color-accent: #00D4FF;
+  --color-accent-hover: #00B8E6;
+  
+  /* Legacy aliases for compatibility */
+  --bg-void: #070707;
+  --bg-deep: #070707;
+  --bg-panel: #111111;
+  --bg-panel-raised: #111111;
+  --bg-surface: #111111;
+  --color-bg-primary: #070707;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #111111;
+  --color-border: #262626;
+  --color-border-light: #262626;
+  --color-border-subtle: #262626;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A1A1AA;
+  --color-text-tertiary: #A1A1AA;
+  --color-accent: #00D4FF;
+  --color-accent-hover: #00B8E6;
+  --color-accent-muted: rgba(0, 212, 255, 0.12);
+  --color-accent-glow: rgba(0, 212, 255, 0.35);
+  
+  --red-peak: #FF5A52;
+  --color-error: #FF5A52;
+  --color-error-muted: rgba(255, 90, 82, 0.12);
+  
+  --green-ok: #5FD98A;
+  --color-success: #5FD98A;
+  --color-success-muted: rgba(95, 217, 138, 0.12);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+  --spacing-5xl: 8rem;
+  --spacing-6xl: 10rem;
+  --spacing-7xl: 12rem;
+
+  /* Section Spacing System - Premium Breathing Room */
+  --section-padding-sm: 5rem; /* 80px - Mobile */
+  --section-padding-md: 7.5rem; /* 120px - Tablet */
+  --section-padding-lg: 10rem; /* 160px - Desktop */
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-full: 9999px;
+
+  /* Border Width */
+  --border-width-thin: 1px;
+  --border-width-base: 2px;
+  --border-width-thick: 3px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+  --transition-slower: 500ms ease;
+  --transition-slowest: 750ms ease;
+
+  /* Animation Curves */
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-elastic: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  --ease-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Animation Duration */
+  --duration-instant: 50ms;
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 350ms;
+  --duration-slower: 500ms;
+  --duration-slowest: 750ms;
+  --duration-extra-slow: 1000ms;
+
+  /* Shadows - Premium Depth */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.08);
+  --shadow-md: 0 4px 8px -1px rgb(0 0 0 / 0.12), 0 2px 4px -2px rgb(0 0 0 / 0.08);
+  --shadow-lg: 0 12px 20px -3px rgb(0 0 0 / 0.15), 0 4px 8px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 24px 32px -5px rgb(0 0 0 / 0.18), 0 8px 12px -6px rgb(0 0 0 / 0.12);
+  --shadow-2xl: 0 32px 64px -12px rgb(0 0 0 / 0.25);
+  --shadow-glow: 0 0 24px rgba(0, 212, 255, 0.4);
+  --shadow-glow-lg: 0 0 48px rgba(0, 212, 255, 0.5);
+  --shadow-glow-xl: 0 0 64px rgba(0, 212, 255, 0.6);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.08);
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-premium: 0 12px 48px rgba(0, 0, 0, 0.15);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-elevated: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+  /* Blur */
+  --blur-sm: 4px;
+  --blur-base: 8px;
+  --blur-md: 12px;
+  --blur-lg: 16px;
+  --blur-xl: 24px;
+  --blur-2xl: 40px;
+
+  /* Opacity */
+  --opacity-0: 0;
+  --opacity-10: 0.1;
+  --opacity-20: 0.2;
+  --opacity-30: 0.3;
+  --opacity-40: 0.4;
+  --opacity-50: 0.5;
+  --opacity-60: 0.6;
+  --opacity-70: 0.7;
+  --opacity-80: 0.8;
+  --opacity-90: 0.9;
+  --opacity-100: 1;
+
+  /* Typography Scale */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --font-size-7xl: 4.5rem;
+  --font-size-8xl: 6rem;
+  --font-size-9xl: 8rem;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+
+  /* Font Families - UX Report Specifications */
+  --font-display: 'Bebas Neue', 'Anton', sans-serif;
+  --font-body: 'Inter', 'Manrope', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Letter Spacing */
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
+  /* Container Widths - Matching HTML Prototype */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1180px;
+  --container-2xl: 1536px;
+
+  /* Z-Index Layering System */
+  --z-background: 0;
+  --z-overlay: 10;
+  --z-overlay-elevated: 20;
+  --z-content: 30;
+  --z-content-elevated: 40;
+  --z-content-top: 50;
+  --z-modal-backdrop: 100;
+  --z-modal: 110;
+  --z-popover: 120;
+  --z-tooltip: 130;
+
+  /* Navbar */
+  --navbar-height: 80px;
+  --navbar-height-mobile: 64px;
+
+  /* Footer */
+  --footer-height: auto;
+
+  /* Breakpoints */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
