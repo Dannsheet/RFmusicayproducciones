@@ -49,7 +49,7 @@ const Navigation = () => {
         <Link to="/" className="flex items-center justify-center hover:scale-105 transition-all duration-300 pl-4">
           <img 
             src="/Asset2.png" 
-            alt="RF Música y Producciones" 
+            alt="RF Música y Producción" 
             className="h-[2rem] w-auto max-w-[120px] max-w-none"
             style={{ maxWidth: '120px' }}
           />

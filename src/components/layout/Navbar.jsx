@@ -45,7 +45,7 @@ const Navbar = () => {
         >
           <img 
             src="/Asset2.png" 
-            alt="RF Música y Producciones" 
+            alt="RF Música y Producción" 
             className="h-12 w-auto"
           />
         </Link>

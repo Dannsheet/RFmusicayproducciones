@@ -88,7 +88,7 @@ const Productions = () => {
   }, [selectedGenre, artists]);
 
   return (
-    <section id="producciones" className="productions-section">
+    <section id="produccion" className="productions-section">
       <div className="productions-gradient" />
       <div className="max-w-[1600px] mx-auto px-8">
         {/* Header */}

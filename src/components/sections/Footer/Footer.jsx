@@ -50,7 +50,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              RF Música y Producciones
+              RF Música y Producción
             </Link>
             <p className="footer-description">
               Producción musical, beats y distribución global para artistas urbanos.
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="footer-bottom">
           <span className="footer-copyright">
-            © {currentYear} RF Música y Producciones. Todos los derechos reservados.
+            © {currentYear} RF Música y Producción. Todos los derechos reservados.
           </span>
           <div className="footer-legal-links">
             <button className="footer-legal-link">

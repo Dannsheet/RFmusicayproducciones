@@ -20,7 +20,7 @@ const Spotify = () => {
               RADIO DE LA SEMANA 
             </span>
             <h2 className="spotify-title">
-              RF musica y producciones
+              RF musica y producción
             </h2>
           </motion.div>
 
